@@ -28,8 +28,7 @@ To get started with Guess the Game, follow these simple steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/guess-the-game.git
-
+   git clone 
 ## How to Play
 - Launch the game in your browser.
 - You will be presented with an image or a clue related to a video game.
