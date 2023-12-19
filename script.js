@@ -10,7 +10,7 @@ function check(){
     const scorePlayer = score - chances;
 
     if (userGuess == number){
-        ok.textContent = "Congratulations 🤩 You Did it 🏆. Your Score is "+ scorePlayer + "Out of 10, Keep it up 👍, Try Your Highest";
+        ok.textContent = "Congratulations 🤩 You Did it 🏆. Your Score is "+ scorePlayer + " Out of 10, Keep it up 👍, Try Your Highest";
     } else if (userGuess > number) {
         ok.textContent = "Too High, Try Again 😮";
         chances++;
