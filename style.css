@@ -4,10 +4,6 @@
 
 }
 
-nav {
-    margin-bottom: 51px;
-}
-
 
 
 body {
@@ -27,7 +23,7 @@ body {
     height: 500px;
     border: 3px solid black;
     border-radius: 50px;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 
 .header {
@@ -102,28 +98,20 @@ button:hover {
 
 
 @media screen and (max-width: 900px) {
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    nav {
-        flex-wrap: wrap;
-    }
+    
 
     .box {
-        width: 400px;
-        height: 500px;
-        font-size: small;
+        width: 300px;
+        height: 400px;
+        font-size: 10px;
     }
 
     input {
         display: block;
         border-radius: 5px;
         margin: auto;
-        width: 170px;
-        height: 51px;
+        width: 101px;
+        height: 21px;
         padding: 1px;
         text-align: center;
         font-size: larger;
