@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+nav {
+    margin-bottom: 51px;
+}
+
+
+
+body {
+    background-color: grey;
+    /* Optional: This keeps the background fixed while scrolling */
+}
+
+.box {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    margin: auto;
+    padding: 1px;
+    width: 750px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+
+.header {
+    text-align: center;
+    padding: 21px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.contain {
+    text-align: center;
+    /* border-bottom: 2px solid black; */
+    padding-bottom: 51px;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    width: 170px;
+    height: 31px;
+    padding: 1px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button {
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    width: 170px;
+    height: 31px;
+    padding: 1px;
+    margin-top: 25px;
+    margin-bottom: 51px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(88, 84, 84);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    /* text-transform:capitalize; */
+}
+
+#sub:active {
+    cursor: copy;
+}
+
+.hint {
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    padding: 1px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#ok {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+    translate: 20px 0px .4s;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 400px;
+        height: 500px;
+        font-size: small;
+    }
+
+    input {
+        display: block;
+        border-radius: 5px;
+        margin: auto;
+        width: 170px;
+        height: 51px;
+        padding: 1px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .hint {
+        display: block;
+        width: 300px;
+        height: 50px;
+        margin: auto;
+        padding: 1px;
+        border: 2px solid black;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
