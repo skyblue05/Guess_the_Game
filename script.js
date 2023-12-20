@@ -10,7 +10,7 @@ function check(){
     const scorePlayer = score - chances;
 
     if (userGuess == number){
-        ok.textContent = "Congratulations 🤩 You Did it 🏆. Your Score is "+ scorePlayer + " Out of 10, Keep it up 👍, Try Your Highest";
+        ok.textContent = "Congratulations 🤩 You Did it 🏆. Your Score is "+ scorePlayer + " Out of 10, Keep it up 👍 Try Your Highest";
     } else if (userGuess > number) {
         ok.textContent = "Too High, Try Again 😮";
         chances++;
@@ -18,10 +18,30 @@ function check(){
         ok.textContent= "Too Low, Try Again 👎" ;
         chances++;
     } else {
-        ok.textContent= "Invalid Value" ;
+        ok.textContent= "Invalid Value 💔" ;
     }
     userGuessInput.value = "";
 
+
 }
+
+
+
+//share button
+
+// function shareSite() {
+//     if (navigator.share) {
+//         navigator.share({
+//             title: document.title,
+//             text: 'Check out this awesome site!',
+//             url: window.location.href
+//         })
+//         .then(() => console.log('Shared successfully'))
+//         .catch((error) => console.error('Error sharing:', error));
+//     } else {
+//         // Fallback for browsers that do not support Web Share API
+//         alert('Web Share API is not supported in this browser. You can manually share the site URL.');
+//     }
+// }
 
         
