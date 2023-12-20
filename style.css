@@ -187,4 +187,193 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background-color: black;
+    /* Optional: This keeps the background fixed while scrolling */
+}
+
+.intro {
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+
+
+.header {
+    text-align: center;
+    padding: 11px;
+    font-size: 61px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.contain {
+    text-align: center;
+    /* border-bottom: 2px solid black; */
+    padding-bottom: 25px;
+}
+
+.contain h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    width: 170px;
+    height: 31px;
+    padding: 1px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* 
+share button style
+#share-container {
+    display: inline-block;
+}
+
+#share-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#share-icon {
+    width: 32px;
+    height: 32px; 
+} 
+
+*/
+
+button {
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    width: 170px;
+    height: 31px;
+    padding: 1px;
+    margin-top: 25px;
+    margin-bottom: 21px;
+    font-weight: bold;
+    background-color: rgb(88, 84, 84);
+    color: white;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    /* text-transform:capitalize; */
+}
+
+#sub:active {
+    cursor: copy;
+}
+
+.hint {
+    display: block;
+    width: 500px;
+    height: 50px;
+    padding: 1px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#ok {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .header {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .contain h2 {
+        font-size: 21px;
+        font-weight: lighter;
+    }
+
+    .box {
+        width: 300px;
+        height: 270px;
+        font-size: 10px;
+    }
+
+    input {
+        /* display: block;
+        border-radius: 5px;
+        margin: auto; */
+        margin-top: 21px;
+        width: 101px;
+        height: 51px;
+        padding: 1px;
+        text-align: center;
+        font-size: 21px;
+        font-weight: bolder;
+    }
+
+    .hint {
+        /* width: 300px;
+        height: 50px; */
+        padding: 1px;
+        border: 2px solid black;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
