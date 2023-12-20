@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favi.png">
     <title>Guess the Number</title>
     <link rel="stylesheet" href="style.css">
 
@@ -12,40 +13,48 @@
 </head>
 
 <body>
+    <div class="intro">
 
-
-
-
-    <div class="box">
         <div class="header">
             <h1>Guess The Number Game</h1>
         </div>
         <div class="contain">
             <h2>Rules:
-                Guess The Number Bet<sup>n</sup> 1 to 100, you get the Hint to Guess correct Number & Your <b>Score =
-                    100 - Number of Chances you take</b>
+                Guess The Number Bet<sup>n</sup> 1 to 100,<br>
+                You will get the Hint to Guess correct Number <br><br>
+                 <b>Your Score = 10 - Number of Chances You take</b>
             </h2>
         </div>
-        <div class="game">
-            <input type="number" id="userGuess" value="num">
-            <button id="sub" onclick="check()" placeholder="Submit">Submit</button>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="game">
+                <input type="number" id="userGuess" value="num">
+                <!-- <div id="share-container">
+                    <button id="share-button" onclick="shareSite()">
+                        <img id="share-icon" src="share.webp" alt="share">
+                    </button>
+                </div> -->
+                <button id="sub" onclick="check()" placeholder="Submit">Submit</button>
+            </div>
+
+            <p id="ok">Submit no. Above ☝️</p>
+
         </div>
-
-        <p id="ok"></p>
-
     </div>
     <footer>
-        &copy; 2023 by Akash . All rights reserved.
+        &copy; 2023 by <a href="https://www.linkedin.com/in/akash-balasaheb-borude/" target="_blank" style="color: White;">Akash</a> . All rights reserved.
     </footer>
 
     <script src="script.js"> </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7619855136894864"
-        crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7619855136894864"
-        data-ad-slot="9418191996"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
     </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    >
+
 
 </body>
 
