@@ -3,7 +3,7 @@ let chances = 0;
 let userGuessInput = document.getElementById("userGuess");
 let ok = document.getElementById("ok")
 
-let number = Math.floor((Math.random)()*100 +1);
+let number = Math.floor((Math.random)()*10);
 
 function check(){
     const userGuess = parseInt(userGuessInput.value);
